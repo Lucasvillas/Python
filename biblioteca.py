@@ -18,6 +18,7 @@ def buscalivro(biblioteca):
         for j in range(3):
             if biblioteca[i][j] == busca:
                 print(biblioteca[i])
+                break
             else:
                 print("Este livro não está na biblioteca")
 
